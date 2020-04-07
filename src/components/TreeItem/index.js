@@ -13,7 +13,7 @@ export const TreeItem = ({
 }) => {
   const [childrenTitle, setChildrenTitle] = useState("");
 
-  // Тут динамически задается стиль для сокрытия и открытия по клику
+  // Тут динамически задается стиль для сокрытия и открытия по клику на сам айтем
 
   const cls = ["tree-item__children", hideChildren ? "hide" : ""];
 
