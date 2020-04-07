@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.tree-item span {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #999;
+  cursor: pointer;
+}
+
+.tree-item__children {
+  margin-left: 50px;
+}
